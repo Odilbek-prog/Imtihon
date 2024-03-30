@@ -1,0 +1,42 @@
+.footer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #1B262F;
+      height: 100px;
+      margin-top: 96px;
+      &__logos {
+            display: flex;
+            gap: 24px;
+      }
+      &__logo {
+            width: 135px;
+            height: 38px;
+      }
+      &__list {
+            display: flex;
+            gap: 33px;
+            margin-right: 400px;
+      }
+      &__link {
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: .923077px;
+            text-transform: uppercase;
+            color: #36536B;
+            &:hover {
+                  color: rgb(3, 28, 49);
+                  transition: all .3s linear;
+            }
+      }
+}
+path {
+      cursor: pointer;
+      transition: all .3s linear;
+      &:hover {
+            fill: #DA6D97;
+      }
+}

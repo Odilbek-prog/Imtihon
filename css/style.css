@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EDF3F8;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.header {
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.intro__btn, .navbar__btn {
+  position: relative;
+  right: 100px;
+  width: 173px;
+  height: 48px;
+  border: none;
+  border-radius: 100px;
+  color: #FBFCFE;
+  background-color: #BA4270;
+  cursor: pointer;
+}
+.intro__btn:hover, .navbar__btn:hover {
+  background-color: #DA6D97;
+  transition: all 0.3s linear;
+}
+
+.intro__input {
+  width: 350px;
+  height: 45px;
+  padding-left: 30px;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.2509803922);
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .wrapper {
+    width: 95%;
+  }
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__logo {
+  width: 135px;
+  height: 38px;
+}
+.navbar__list {
+  display: flex;
+  gap: 33px;
+  margin-top: 10px;
+  margin-right: 400px;
+}
+.navbar__link {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #36536B;
+}
+.navbar__link:hover {
+  color: rgb(3, 28, 49);
+  transition: all 0.3s linear;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.intro__img {
+  margin-left: 200px;
+}
+.intro__title {
+  font-family: "DM Serif Display";
+  font-size: 72px;
+  width: 545px;
+  color: #36536B;
+}
+.intro__input {
+  margin-top: 50px;
+  margin-bottom: 16px;
+}
+.intro__text {
+  margin-left: 30px;
+  color: #6C8294;
+}
+.intro__link {
+  font-family: "Public Sans";
+  color: #323e48;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #FBFCFE;
+  height: 472px;
+  margin-top: 90px;
+  background-image: url(../img/work-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-color: #1B262F;
+}
+.work__title {
+  font-family: "DM Serif Display";
+  font-weight: 600;
+  font-size: 48px;
+}
+.work__text {
+  font-family: "Public Sans";
+  width: 445px;
+}
+.work__allimg {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+}
+.work__images {
+  display: flex;
+  gap: 62px;
+}
+.work__images2 {
+  display: flex;
+  gap: 62px;
+}
+.work__box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.work__link {
+  width: 65px;
+  font-weight: bolder;
+  border-radius: 100px;
+  color: #fff;
+  padding: 16px 32px;
+  border: 1px solid #FBFCFE;
+  transition: all 0.3s linear;
+}
+.work__link:hover {
+  color: #1B262F;
+  background-color: #fff;
+}
+
+.howto__img {
+  box-shadow: 25px 25px 80px 0px rgba(54, 83, 107, 0.3019607843);
+}
+.howto__box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 166px;
+}
+.howto__imple {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 24px;
+}
+.howto__title {
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  color: #36536B;
+}
+.howto__text {
+  font-family: "Public Sans";
+  width: 410px;
+  color: #6C8294;
+}
+.howto__ui {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 182px;
+}
+
+.banking {
+  display: flex;
+  gap: 30px;
+  margin-top: 146px;
+}
+.banking__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.banking__title {
+  font-family: "Public Sans";
+  color: #36536B;
+}
+.banking__text {
+  font-family: "Public Sans";
+  color: #6C8294;
+  text-align: center;
+}
+
+.ready {
+  display: flex;
+  margin-top: 96px;
+  justify-content: space-around;
+}
+.ready__title {
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  color: #36536B;
+  margin-top: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1B262F;
+  height: 100px;
+  margin-top: 96px;
+}
+.footer__logos {
+  display: flex;
+  gap: 24px;
+}
+.footer__logo {
+  width: 135px;
+  height: 38px;
+}
+.footer__list {
+  display: flex;
+  gap: 33px;
+  margin-right: 400px;
+}
+.footer__link {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #36536B;
+}
+.footer__link:hover {
+  color: rgb(3, 28, 49);
+  transition: all 0.3s linear;
+}
+
+path {
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+path:hover {
+  fill: #DA6D97;
+}/*# sourceMappingURL=style.css.map */

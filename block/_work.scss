@@ -1,0 +1,52 @@
+.work {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      color: #FBFCFE;
+      height: 472px;
+      margin-top: 90px;
+      background-image: url(../img/work-bg.png);
+      background-repeat: no-repeat;
+      background-position-x: left;
+      background-color: #1B262F;
+      &__title {
+            font-family: 'DM Serif Display';
+            font-weight: 600;
+            font-size: 48px;
+      }
+      &__text {
+            font-family: 'Public Sans';
+            width: 445px;
+      }
+      &__allimg {
+            display: flex;
+            flex-direction: column;
+            gap: 39px;
+      }
+      &__images {
+            display: flex;
+            gap: 62px;
+      }
+      &__images2 {
+            display: flex;
+            gap: 62px;
+      }
+      &__box {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+      }
+      &__link {
+            width: 65px;
+            font-weight:bolder;
+            border-radius: 100px;
+            color: #fff;
+            padding: 16px 32px;
+            border: 1px solid #FBFCFE;
+            transition: all .3s linear;
+            &:hover {
+                  color: #1B262F;
+                  background-color: #fff;
+            }
+      }
+}

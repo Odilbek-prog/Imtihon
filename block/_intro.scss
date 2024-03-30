@@ -1,0 +1,30 @@
+.intro {
+      display: flex;
+      align-items: center;
+      margin-top: 100px;
+      &__img {
+            margin-left: 200px;
+      }
+      &__title {
+            font-family: 'DM Serif Display';
+            font-size: 72px;
+            width: 545px;
+            color: #36536B;
+      }
+      &__input {
+            @extend %input;
+            margin-top: 50px;
+            margin-bottom: 16px;
+      }
+      &__btn {
+            @extend %btn;
+      }
+      &__text {
+            margin-left: 30px;
+            color: #6C8294;
+      }
+      &__link {
+            font-family: 'Public Sans';
+            color: #323e48;
+      }
+}

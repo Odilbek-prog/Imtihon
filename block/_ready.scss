@@ -1,0 +1,11 @@
+.ready {
+      display: flex;
+      margin-top: 96px;
+      justify-content: space-around;
+      &__title {
+            font-family: 'DM Serif Display';
+            font-size: 48px;
+            color: #36536B;
+            margin-top: 40px;
+      }
+}
